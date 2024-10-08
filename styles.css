@@ -1,0 +1,35 @@
+
+
+
+body{
+    background-color:green;
+    text-align: center;
+}
+
+h1{
+    font-family: verdana;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+span{
+    background-color: azure;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+p{
+    text-size-adjust: 10pt;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: azure;
+    
+}
+
+div{
+    background-color: azure;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}

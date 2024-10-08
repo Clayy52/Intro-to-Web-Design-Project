@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <!--Adding in external style and script files-->
+    <link rel="stylesheet" href="styles.css">
+    <script src = "scripts.js"></script>
+</head>
+
+
+<body>
+<H1>CJ Merritt Portfolio</H1> 
+
+<!--span to store the navigation buttons-->
+<span>
+    <a href = "home.html"><button >Home</button></a>
+    <a href = "contact.html"><button >Contact</button></a>
+    <a href = "about.html"><button >About</button></a>
+</span>
+
+<div>
+<p>Welcome to my page! Below is some of the javascript I have learned!</p>
+</div>
+
+<div>
+    <h1>Password Checker</h1>
+    <p>Enter a password that must be at least 13 characters long contain
+         one upper case and one lower case letter and atleast
+          one special character(!@#$%)<br> NO SPACES
+    </p>
+    <p>Password Status:</p>
+    <p style = "font-style: italic;" id = "PWstatus">awaiting input</p>
+    <input id ="pwinput">
+    <button onclick="verifyPW()">check password</button>
+</div>
+
+</body>
+
+</html>
